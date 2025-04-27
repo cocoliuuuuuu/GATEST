@@ -11,7 +11,25 @@
 </script>
 <title>Homepage</title>
 </HEAD>
+</script>
+function shareFB(){
+ alert("已經分享到fb");
+ gtag("event,"分享“,{
+   "atitle":"我的文章“,
+   "social_platform":"Facebook"
+  });
+}
+ function shareLine(){
+ alert("已經分享到Line");
+ gtag("event,"分享“,{
+   "atitle":"我的文章“,
+   "social_platform":"LINE"
+  });
+}
+</script>
 </body>
   hello google analytics
 </body>
+  <botton onclick="shareFB()">分享到FB</botton>
+  <botton>分享到Line</botton>
 </HTML>
